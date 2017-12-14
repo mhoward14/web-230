@@ -35,41 +35,41 @@ var header = required('..header.js')
 
 
     // Conditional "if...else" statements. Include checks for all six (6) test variables
-    if (age == 35) {
-        console.log(match("Welcome!"));
+    if (2>3) {
+        console.log(false);
     } 
     else {
-        console.log(mismatch("Come again some other time."));
+        console.log(true);
     }
-    if (username == Matthew Howard) {
-        console.log(match("Authorized."));
-    }
-    else {
-        console.log(mismatch("Access denied!"));
-    }
-    if (address == home) {
-        console.log(match("Please list the name of the city."));
+    if (4>2) {
+        console.log(true);
     }
     else {
-        console.log(mismatch("Please list a valid mailing address."));
+        console.log(false);
     }
-    if (n==1) {
-        console.log(match("You have 1 new message."));
+    if (21=21) {
+        console.log(true);
+    }
+    else {
+        console.log(false);
+    }
+    if (18>21) {
+        console.log(false);
     {
     else {
-        console.log(mismatch("You have " + n + " new messages."));
+        console.log(true);
     }
-    if (vehicle == make) {
-        console.log(match("Please list the model."));
-    }
-    else {
-        concole.log(mismatch("Please list the type of vehicle you own."));
-    }
-    if (sport == soccer) {
-        console.log(match("What team do you support?"));
+    if (99>98) {
+        console.log(true);
     }
     else {
-        console.log(mismatch("Please list your favoirte soccer team."));
+        console.log(false);
+    }
+    if (50<60) {
+        console.log(true);
+    }
+    else {
+        console.log(false);
     }
 
     // end program
