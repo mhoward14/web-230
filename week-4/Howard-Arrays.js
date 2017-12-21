@@ -1,7 +1,6 @@
-var header = require("../header.js");{
-header.display("Matthew", "Howard", "Assignment 4.2");
-console.log(header.display("Matthew", "Howard", "Assignment 4.2"));
-}
+var header = require('../header.js');
+var headerMsg = header.display("Matthew", "Howard", "Exercise 4.2");
+console.log(headerMsg);
 
 /*
  Expected output:
@@ -21,15 +20,17 @@ console.log(header.display("Matthew", "Howard", "Assignment 4.2"));
 
 
 // function
-function getFruit() { 
+var fruit = ["Apple", "Orange", "Banana", "Mango", "Pear"];
    
-    var fruit = ["Apple", "Orange", "Banana", "Mango", "Pear"];
-   
-    fruit.sort();
-   
-    console.log(getFruit());
+function getFruit(fruitArray){
+
+    fruitArray.sort();
+
+    console.log(fruitArray);
+
 }
 
+    console.log(getFruit(fruit));
 
 
 
