@@ -1,4 +1,7 @@
-var header = require('../header.js');
+var header = require("../header.js");{
+header.display("Matthew", "Howard", "Assignment 4.2");
+console.log(header.display("Matthew", "Howard", "Assignment 4.2"));
+}
 
 /*
  Expected output:
