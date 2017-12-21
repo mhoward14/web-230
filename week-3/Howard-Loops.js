@@ -42,7 +42,12 @@ console.log("-- Display for loop --");
 for (var x = 0; x <10; x++){
     var count = 0
     return Math.floor((Math.random() * 10) + 1);
-    console.log()
+    console.logMatch ()
+}
+for (var x = 0; x <10; x++){
+    var count = 0
+    return Math.floor((Math.random() * 10) + 1);
+    console.logMisMatch ()    
 }
 
 
@@ -52,13 +57,13 @@ console.log("\n-- Display while loop --");
 var index = 0;
 
 while (index < 10) {
-    console.log(index);
+    console.logMatch(index);
     index++;
 }
 
 
 
-function match() {    
+function match (){
 }
 
 function logMismatch() {
