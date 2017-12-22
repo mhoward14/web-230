@@ -31,6 +31,14 @@ console.log(headerMsg);
 // function
 var vehicle = ["Car", "Truck", "Motorcycle", "Airplane", "Bus"];
 
+
+/**
+ *This function lists all the elements in the array,
+ * and then filters the element from the array based on the value
+ * of the value argument.
+ * * @param {*} array 
+ * @param {*} value 
+ */
 function getValue(array, value) {
     console.log("\n" + "-- DISPLAYING ARRAY ITEMS --");
     array.forEach(function(element){
