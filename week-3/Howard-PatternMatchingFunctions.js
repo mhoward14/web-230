@@ -1,4 +1,6 @@
-var header = required('..header.js')
+var header = require('../header.js');
+var headerMsg = header.display("Matthew", "Howard", "Exercise 3.2");
+console.log(headerMsg);
 
 //start program
 
@@ -16,13 +18,16 @@ var header = required('..header.js')
     */
 
     // functions
-    function match() {    
+    function match(x, y) {
+        return (x == y);    
     }
 
-    function logMismatch() {
+    function logMismatch(x, y) {
+        console.log(x + " and " + y + " do not match!");
     }
 
-    function logMatch() {
+    function logMatch(x, y) {
+        console.log(x + " and " + y + " do match!"); 
     }
 
     // six (6) test varibles
@@ -33,43 +38,29 @@ var header = required('..header.js')
     console.log(match("A", "B"));
     console.log(match(2, 2));
 
+    var test1 = "m";
+    var test2 = "M";
+    var test3 = "77";
+    var test4 = "77";
+    var test5 = "Hello";
+    var test6 = "Goodbye";
+
 
     // Conditional "if...else" statements. Include checks for all six (6) test variables
-    if (2>3) {
-        console.log(false);
-    } 
-    else {
-        console.log(true);
+    if (match(test1, test2)) {
+        logMatch(test1, test2);
+    } else {
+        logMismatch(test1, test2);
     }
-    if (4>2) {
-        console.log(true);
+    if (match(test3, test4)) {
+        logMatch(test3, test4);
+    } else {
+        logMismatch(test3, test4);
     }
-    else {
-        console.log(false);
-    }
-    if (21=21) {
-        console.log(true);
-    }
-    else {
-        console.log(false);
-    }
-    if (18>21) {
-        console.log(false);
-    {
-    else {
-        console.log(true);
-    }
-    if (99>98) {
-        console.log(true);
-    }
-    else {
-        console.log(false);
-    }
-    if (50<60) {
-        console.log(true);
-    }
-    else {
-        console.log(false);
+    if (match(test5, test6)) {
+        logMatch (test5, test6);
+    } else {
+        logMismatch(test5, test6);
     }
 
     //end program

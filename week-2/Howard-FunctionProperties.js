@@ -1,4 +1,6 @@
 var header = require('../header.js');
+var headerMsg = header.display("Matthew", "Howard", "Exercise 2.3");
+console.log(headerMsg);
 
 // start program
 
@@ -11,14 +13,15 @@ var header = require('../header.js');
 
     Hello Matthew Howard!
 */
-var myName = "Matthew Howard";
+myName.matthew = "Matthew Howard";
 
 //function myName() {
-    return myName.counter++;
+function myName() {
+    return myName.matthew;
 }
 
 // output
-console.log('\n');
+console.log('\n' + "Hello " + myName() + "!");
 
 
 
