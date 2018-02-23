@@ -1,5 +1,7 @@
 # web-230
 Introduction to JavaScript
-#contributors
-Professor Krasso - Bellevue University
+
+# contributors
 Matthew Howard - Bellevue University
+
+Professor Krasso - Bellevue University
